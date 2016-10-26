@@ -18,7 +18,7 @@ body{
 }
 /* The the fence the house*/
 .fence{
-<<<<<<< HEAD
+
 	width: 500;
 	height: 500;
 	top: 20px;
@@ -27,14 +27,11 @@ body{
 	left: 20px;
 	border:2px solid;
 	position: absolute; 
-=======
 	width: 550;
 	height: 400;
 	margin: 20px 20px 50px 20px;
 	border:1px solid;
 	position: absolute; 
-	 
->>>>>>> 456d3b3fab6da70cf25b6409154b8eae05c300a4
 }
 /* out side door*/
 .fence-door{
@@ -132,9 +129,6 @@ body{
 	position: absolute;
 	background-color: white;
 }
-
-<<<<<<< HEAD
-=======
 /* The main roof, up stare */
 .roof{
 	
@@ -147,7 +141,7 @@ body{
     border-left:170px solid transparent;
     border-right:170px solid transparent; 
 }
->>>>>>> 456d3b3fab6da70cf25b6409154b8eae05c300a4
+
 /* Up stare , uper side of the house*/
 .up-stare{
 	height:215px; 
