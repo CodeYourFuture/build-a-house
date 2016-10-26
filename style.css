@@ -1,0 +1,220 @@
+/***
+	This is the house design CSS exercise provided by Hack Your Futur 
+	Author: Sentayhu
+	 
+*/
+body{
+	margin:50px 200px 100px 200px;
+
+}
+/* Plote of land the house established*/
+.Plot-land{
+	width: 600px;
+	height: 600px;
+	margin: 20px;
+	border: 0px solid;
+	position: absolute;
+
+}
+/* The the fence the house*/
+.fence{
+<<<<<<< HEAD
+	width: 500;
+	height: 500;
+	top: 20px;
+	right: 20px;
+	bottom: 30px;
+	left: 20px;
+	border:2px solid;
+	position: absolute; 
+=======
+	width: 550;
+	height: 400;
+	margin: 20px 20px 50px 20px;
+	border:1px solid;
+	position: absolute; 
+	 
+>>>>>>> 456d3b3fab6da70cf25b6409154b8eae05c300a4
+}
+/* out side door*/
+.fence-door{
+	width: 70px;
+	height:50px;
+	position: absolute;
+	bottom:-1px;
+	left:45%;
+	border:2px solid;
+	background: black;
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+}
+
+/* The plot the actual house stand*/
+
+.house{
+	position: absolute;
+	top:20px;
+	right:90px;
+	bottom: 100px;
+	left: 90px;
+	border:0px solid;
+}
+
+/*The lower part of the house*/
+.down-stare{
+	position: absolute;
+	height: 150px;
+	width: 300px;
+	left: 50px;
+	right:20px;
+	bottom:45px;
+	border:1px solid;
+	background: black;
+}
+
+/* The left side windows frame*/
+
+.left-window {
+	width: 70px;
+	height: 50px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+/*The right side windows frame*/
+.right-window{
+	width: 70px;
+	height: 50px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+/* The uper side of the house, windows frame*/
+.window-Up{
+	width: 70px;
+	height: 50px;
+	position: absolute;
+	left: 40%;
+	bottom: 1px;
+	border:0px solid white;
+	
+}
+
+/*The actual window*/
+.window{
+	width: 30px;
+	height: 20px;
+	position: static;
+	border:0px solid;
+	background: white;
+	display: inline-block;
+}
+
+/*Front door, which is found down stare */
+.front-Door{
+	width: 60px;
+	height: 125px;
+	bottom: -3px;
+	left:40%;
+	position: absolute;
+	border: 3px solid white;
+
+}
+
+/*locker on the front door*/
+.front-Door .lock{
+	width: 15px;
+	height: 15px;
+	top: 45%;
+	left:5px;
+	border-radius: 50px;
+	position: absolute;
+	background-color: white;
+}
+
+<<<<<<< HEAD
+=======
+/* The main roof, up stare */
+.roof{
+	
+    top:10px;
+    bottom:0px;
+    right:10px;
+    left: 10px;  
+    position: absolute;
+    border-bottom:170px solid ;
+    border-left:170px solid transparent;
+    border-right:170px solid transparent; 
+}
+>>>>>>> 456d3b3fab6da70cf25b6409154b8eae05c300a4
+/* Up stare , uper side of the house*/
+.up-stare{
+	height:215px; 
+	width:320px;
+	top: 10px; 
+	left:40px;
+	right: 40px; 
+	position: absolute;
+	border:0px solid;
+}
+
+/* The main roof, up stare */
+.up-stare .roof{
+	
+	top:85px;
+    left: 10px;
+    right: 10px;  
+    position: absolute;
+    border-bottom:130px solid ;
+    border-left:150px solid transparent;
+    border-right:150px solid transparent; 
+}
+
+/* left side roof cover*/
+.up-stare .roof-Cover-left{
+	width:15px; 
+    height:220px; 
+    top: 30px;
+    left: 75px;
+    bottom: 0px;
+    position:absolute;
+    background:black;
+    transform:rotate(49deg);
+}
+
+/*right side roof cover*/
+.up-stare .roof-Cover-right{
+	width:15px; 
+    height:220px; 
+    top: 30px;
+    right: 75px;
+    bottom: 0px;
+    position:absolute;
+    background:black;
+    transform:rotate(-49deg);
+}
+/*smoke block, wook stove smoke extractor*/
+.up-stare .smoke-Block{
+	width: 50px;
+	height: 70px;
+	right: 65px;
+	top: 75px;
+	position: absolute;
+	background: black;
+	border-bottom-left-radius: 7em;
+
+}
+/* smoke block cover, top of the smoke block*/
+.up-stare .smoke-Block-cover{
+    width:60px;
+    height:20px;
+    top: 53px;
+    right: 60px;
+    position: absolute;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background:black;
+}
