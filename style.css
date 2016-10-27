@@ -4,21 +4,19 @@
 	 
 */
 body{
-	margin:50px 200px 100px 200px;
+	margin:20px 200px 100px 200px;
 
 }
 /* Plote of land the house established*/
 .Plot-land{
 	width: 600px;
 	height: 600px;
-	margin: 20px;
-	border: 0px solid;
+	border: 1px solid;
 	position: absolute;
 
 }
 /* The the fence the house*/
 .fence{
-
 	width: 500;
 	height: 500;
 	top: 20px;
@@ -26,12 +24,7 @@ body{
 	bottom: 30px;
 	left: 20px;
 	border:2px solid;
-	position: absolute; 
-	width: 550;
-	height: 400;
-	margin: 20px 20px 50px 20px;
-	border:1px solid;
-	position: absolute; 
+	position: absolute;
 }
 /* out side door*/
 .fence-door{
@@ -129,6 +122,7 @@ body{
 	position: absolute;
 	background-color: white;
 }
+
 /* The main roof, up stare */
 .roof{
 	
@@ -146,7 +140,7 @@ body{
 .up-stare{
 	height:215px; 
 	width:320px;
-	top: 10px; 
+	top: 15px; 
 	left:40px;
 	right: 40px; 
 	position: absolute;
