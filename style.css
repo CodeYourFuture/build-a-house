@@ -1,0 +1,158 @@
+*{
+	margin: auto;
+	text-align: center;
+}
+
+p{
+	font-family: arial
+}
+
+html, body{
+	max-width: 400px;
+	max-height: 400px;
+}
+
+.building{
+	background: blue;
+	display: inline-block;
+	height: 110px;
+	margin-left: auto;
+	margin-top: 200px;
+	position: relative;
+	width: 200px;
+}
+
+.building:before{
+	position: absolute;
+	border-bottom: 80px solid blue;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	left: 0;
+	top: -80px;
+}
+/*roof properties*/
+.left{
+	position: relative;
+	width: 10px;
+	height: 150px;
+	background-color: yellow;
+	border-left:2px solid yellow;
+	transform: rotate(51deg);
+	top: -124px;
+	left: -55.5px;
+}
+
+.right{
+	position: absolute;
+	width: 10px;
+	height: 150px;
+	background-color: yellow;
+	border-right: 2px solid yellow;
+	transform: rotate(-51deg);
+	top: -124px;
+	right: 40px;
+}
+/*ends here*/
+
+/*Chimney Properties*/
+.top{
+	position: absolute;
+	background: blue;
+	width: 27px;
+	height: 6px;
+	border:1px solid white;
+	border-radius: 5px;
+	bottom:185px;
+	left:153px;
+}
+
+.shoot{
+	position: absolute;
+	background: red;
+	height: 14px;
+	width: 25px;
+	right: 20px;
+	bottom: 170px;
+	z-index:-1;
+}
+.base{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-right: 25px solid red;
+	border-top: 0px solid transparent;
+	border-bottom: 20px solid transparent;
+	right: 20px;
+	bottom: 150px;
+}
+/*ends here*/
+
+/*Window properties*/
+.window{
+	position: absolute;
+	background: black;
+	height: 30px;
+	width: 40px;
+}
+.winpositiontop{
+	right: 80px;
+	bottom: 100px;
+}
+
+.winpositionleft{
+	left: 20px;
+	top: 40px;
+}
+
+.winpositionright{
+	right: 20px;
+	top: 40px;
+}
+
+.windowbarh{
+	position: relative;
+	background: red;
+	height: 30px;
+	width: 2px;
+	bottom: 2px;
+}
+
+.windowbarv{
+	position: relative;
+	background: red;
+	height: 2px;
+	width: 40px;
+	top: 14px;
+}
+/*ends here*/
+/*Door properties*/
+.door{
+	position: absolute;
+	background: black;
+	height: 66px;
+	width: 40px;
+	border: 2px solid white;
+	right: 80px;
+	top: 42px;
+}
+
+.doorhandle{
+	position: absolute;
+	background: white;
+	height: 5px;
+	width: 5px;
+	border: 1px solid grey;
+	border-radius: 50%;
+	right: 114px;
+	top: 73px;
+}
+/*ends here*/
+footer{
+	font-family: arial;
+	font-size:10px;
+	margin: 80px;
+}
+/*end of code*/
