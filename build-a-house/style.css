@@ -1,0 +1,245 @@
+#shape {
+  background: black;
+  display: inline-block;
+  height: 110px;
+  margin-left: 70px;
+  margin-top: 105px;
+    position: relative;
+    width: 200px;  
+}
+
+#shape:before {
+  border-bottom: 80px solid black;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -80px;
+  width: 0;
+}
+
+* {
+	margin: 0 auto;
+	text-align: center; 
+}
+
+html, body {
+	max-width: 1000px;
+	max-height: 1000px;
+	/*background: #009688;*/
+}
+
+.container {		
+	position: absolute;
+	width: 300px;
+	height: 220px;
+	top:50%;
+	left: 50%;
+	margin-left: -190px;  
+	margin-top: -100px;
+}
+
+.window1 {
+	position: absolute;
+	left: 20px;
+	top: 40px;
+	height: 25px;
+	width: 40px;
+	background: black;
+	border: 1px solid white;
+}
+
+.window2 {
+	position: absolute;
+	right: 20px;
+	top: 40px;
+	height: 25px;
+	width: 40px;
+	background: black;
+	border: 1px solid white;	
+}
+
+.window3 {
+	position: absolute;
+	right: 80px;
+	bottom: 100px;
+	height: 25px;
+	width: 40px;
+	background: black;
+	border: 1px solid white;	
+}
+
+.door {
+	position: absolute;
+	right: 80px;
+	top: 49px;
+	height: 60px;
+	width: 40px;
+	background: black;
+	border: 1px solid white; 	
+}
+
+.dot {
+	position: absolute;
+	right: 115px;
+	top: 80px;
+	height: 3px;
+	width: 3px;
+	background: white;
+	border-radius: 50%;
+	border: 1px solid white; 	
+}
+
+.windowpen1 {
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	height: 9px;
+	width: 17px;
+	background: white;
+}
+
+.windowpen2 {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	height: 9px;
+	width: 17px;
+	background: white;
+}
+
+.windowpen3 {
+	position: absolute;
+	right: 2px;
+	top: 14px;
+	height: 9px;
+	width: 17px;
+	background: white;
+}
+
+.windowpen4 {
+	position: absolute;
+	left: 2px;
+	top: 14px;
+	height: 9px;
+	width: 17px;
+	background: white;
+}
+
+.rooftop1 {
+	position: relative;
+  width: 10px;
+  height: 165px;
+  border-left: 1px solid white;
+  background-color: black;
+  transform: rotate(51deg);
+  top: -125px;
+	left: -62px;
+}
+
+.rooftop2 {
+	position: absolute;
+  width: 10px;
+  height: 165px;
+  border-right: 3px solid white;
+  background-color: black;
+  transform: rotate(-51deg);
+	top: -125px;
+	right: 32px;
+}
+
+.chimneybase {
+	position: absolute;
+	width: 20px;
+	height: 30px;
+	background: black;
+	right: 20px;
+	bottom: 138px;
+}
+
+.chimneytop {
+	position: absolute;
+	width: 20px;
+	height: 7px;
+	background: black;
+	right: 19px;
+	bottom: 170px;
+	border: 1px solid white;
+	border-radius: 3px;
+}
+
+.windowpen5 {
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	height: 9px;
+	width: 17px;
+	background: white;
+}
+
+.windowpen6 {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	height: 9px;
+	width: 17px;
+	background: white;
+}
+
+.windowpen7 {
+	position: absolute;
+	right: 2px;
+	top: 14px;
+	height: 9px;
+	width: 17px;
+	background: white;
+}
+
+.windowpen8 {
+	position: absolute;
+	left: 2px;
+	top: 14px;
+	height: 9px;
+	width: 17px;
+	background: white;
+}
+
+.windowpen9 {
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	height: 9px;
+	width: 17px;
+	background: white;
+}
+
+.windowpen10 {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	height: 9px;
+	width: 17px;
+	background: white;
+}
+
+.windowpen11 {
+	position: absolute;
+	right: 2px;
+	top: 14px;
+	height: 9px;
+	width: 17px;
+	background: white;
+}
+
+.windowpen12 {
+	position: absolute;
+	left: 2px;
+	top: 14px;
+	height: 9px;
+	width: 17px;
+	background: white;
+}
+
+
