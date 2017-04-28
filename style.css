@@ -1,0 +1,121 @@
+/*used https://css-tricks.com/snippets/css/a-guide-to-flexbox/ for the flex and 
+https://css-tricks.com/a-couple-of-use-cases-for-calc/
+to work out the actual width of the rectangle on top of the buildings. */
+
+html, body, .library_building {
+	height: 100%;
+}
+
+.library_building {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.building {
+	position: relative;
+	width: 15%;
+	padding: 20px;
+	padding-bottom: 150px;
+}
+
+.side_building_left {
+	padding-right: 0;
+    background-color: #cc5e84;
+}
+
+.side_building_left:before {
+	content: '';
+	position: absolute;
+	height: 30px;
+	top: -30px;
+	left: 30px;
+	width: calc(100% - 30px);
+	background-color: #cc516c;
+}
+
+.middle_building {
+	width: 25%;
+    background-color: #cc8485;
+    filter: drop-shadow(0px 45px 20px black);
+    z-index: 1;
+}
+
+.middle_building:before {
+	content: '';
+	position: absolute;
+	height: 30px;
+	top: -30px;
+	left: 30px;
+	width: calc(100% - 60px);
+	background-color: #cc756d;
+}
+
+.side_building_right {
+	padding-left: 0;
+	background-color: #e46c85;
+}
+
+.side_building_right:before {
+	content: '';
+	position: absolute;
+	height: 30px;
+	top: -30px;
+	right: 30px;
+	width: calc(100% - 30px);
+	background-color: #e9566d;
+}
+
+.window {
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	margin-bottom: 20px;
+}
+
+.pane-left,
+.pane-center,
+.pane-right {
+	width: 30%;
+	height: 100%;
+	background-color: #f6d676;
+}
+
+.pane-center {
+	width: 36%;
+}
+
+.side_building_left .window,
+.side_building_right .window {
+	height: 40px;
+}
+
+.door {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 30px;
+	width: 60px;
+	height: 120px;
+	background-color: #f6bc75;
+}
+
+.side_building_left .door {
+	margin-left: 10px;
+}
+
+.side_building_right .door {
+	margin-left: -10px;
+}
+
+.door:after {
+	content: '';
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+}
