@@ -28,11 +28,31 @@ body{
 
 /*/\/\/\/\/\/\/\/\/\//\//\/\/\/\/\/\/=====small house========/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/*/
 
+#base,
+#top_floor,
+#roof_left,
+#roof_right,
+#second_floor_window #top_left_window,
+#second_floor_window #bottom_left_window,
+#second_floor_window #top_right_window,
+#second_floor_window #bottom_right_window,
+#first_floor_left_window #top_left_window,
+#first_floor_left_window #bottom_left_window,
+#first_floor_left_window #top_right_window,
+#first_floor_left_window #bottom_right_window,
+#first_floor_right_window #top_left_window,
+#first_floor_right_window #bottom_left_window,
+#first_floor_right_window #top_right_window,
+#first_floor_right_window #bottom_right_window
+{
+    position: absolute;
+}
+
 #base{
     width: 350px;
-    height: 150px;
+    height: 155px;
     background: #000;
-    position: absolute;
+   
     top:170px;
     left:60px;
 }
@@ -42,7 +62,6 @@ body{
     border-bottom: 120px solid #000;
     border-left: 175px solid transparent;
     border-right: 175px solid transparent;
-    position: absolute;
     top:50px;
     left: 60px;
 }
@@ -50,7 +69,6 @@ body{
     width: 235px;
     height: 15px;
     background:#000;
-    position: absolute;
     top:93px;
     left: 25px;
     -webkit-transform: rotate(-34deg);
@@ -64,7 +82,6 @@ body{
     width: 235px;
     height: 15px;
     background:#000;
-    position: absolute;
     top:95px;
     left: 212px;
     -webkit-transform: rotate(34deg);
@@ -76,7 +93,6 @@ body{
 #second_floor_window #top_left_window{
     width: 20px;
     height: 20px;
-    position: absolute;
     top: 120px;
     left: 210px;
     background: white;
@@ -85,7 +101,6 @@ body{
 #second_floor_window #bottom_left_window{
     width: 20px;
     height: 20px;
-    position: absolute;
     top: 143px;
     left: 210px;
     background: white;
@@ -94,7 +109,6 @@ body{
 #second_floor_window #top_right_window{
     width: 20px;
     height: 20px;
-    position: absolute;
     top: 120px;
     left: 233px;
     background: white;
@@ -103,7 +117,6 @@ body{
 #second_floor_window #bottom_right_window{
     width: 20px;
     height: 20px;
-    position: absolute;
     top: 143px;
     left: 233px;
     background: white;
@@ -112,7 +125,6 @@ body{
 #first_floor_left_window #top_left_window{
     width: 20px;
     height: 20px;
-    position: absolute;
     top: 220px;
     left: 310px;
     background: white;
@@ -121,7 +133,6 @@ body{
 #first_floor_left_window #bottom_left_window{
     width: 20px;
     height: 20px;
-    position: absolute;
     top: 243px;
     left: 110px;
     background: white;
@@ -130,7 +141,6 @@ body{
 #first_floor_left_window #top_right_window{
     width: 20px;
     height: 20px;
-    position: absolute;
     top: 220px;
     left: 133px;
     background: white;
@@ -139,7 +149,6 @@ body{
 #first_floor_left_window #bottom_right_window{
     width: 20px;
     height: 20px;
-    position: absolute;
     top: 243px;
     left: 133px;
     background: white;
@@ -148,7 +157,6 @@ body{
 #first_floor_right_window #top_left_window{
     width: 20px;
     height: 20px;
-    position: absolute;
     top: 220px;
     left: 110px;
     background: white;
@@ -157,7 +165,6 @@ body{
 #first_floor_right_window #bottom_left_window{
     width: 20px;
     height: 20px;
-    position: absolute;
     top: 243px;
     left: 310px;
     background: white;
@@ -166,7 +173,6 @@ body{
 #first_floor_right_window #top_right_window{
     width: 20px;
     height: 20px;
-    position: absolute;
     top: 220px;
     left: 333px;
     background: white;
@@ -175,7 +181,6 @@ body{
 #first_floor_right_window #bottom_right_window{
     width: 20px;
     height: 20px;
-    position: absolute;
     top: 243px;
     left: 333px;
     background: white;
