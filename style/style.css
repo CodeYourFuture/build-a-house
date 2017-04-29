@@ -2,12 +2,28 @@
 body{
     background: #d3d3d3;
 }
+nav{
+    background: #000;
+    margin: 0;
+    color: aliceblue;
+    padding: 5px;
+    top:-10px;
+}
+nav ul li{
+    display: inline-block;
+    padding:30px 10px 30px 50px;
+    margin: 0 30px; 
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+}
 #container{
     width:450px;
     height: 350px;
     background: #fff;
     top: 250px;
-    left: 550px;
+    left: 450px;
     position: absolute;
 }
 .door{
