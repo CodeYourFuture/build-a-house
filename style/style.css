@@ -1,0 +1,801 @@
+/*=========General================*/
+body{
+    background: #d3d3d3;
+}
+#container{
+    width:450px;
+    height: 350px;
+    background: #fff;
+    top: 250px;
+    left: 550px;
+    position: absolute;
+}
+.door{
+    width:60px;
+    height: 90px;
+    position: absolute;
+    border: 2px solid white;
+    
+}
+.lock{
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50px;
+    position: absolute;
+   
+}
+
+/*/\/\/\/\/\/\/\/\/\//\//\/\/\/\/\/\/=====small house========/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/*/
+
+#base{
+    width: 350px;
+    height: 150px;
+    background: #000;
+    position: absolute;
+    top:170px;
+    left:60px;
+}
+#top_floor{
+    width: 0;
+    height: 0;
+    border-bottom: 120px solid #000;
+    border-left: 175px solid transparent;
+    border-right: 175px solid transparent;
+    position: absolute;
+    top:50px;
+    left: 60px;
+}
+#roof_left{
+    width: 235px;
+    height: 15px;
+    background:#000;
+    position: absolute;
+    top:93px;
+    left: 25px;
+    -webkit-transform: rotate(-34deg);
+    -ms-transform:rotate(-34deg) ;
+    -o-transform:rotate(-34deg) ;
+    transform:rotate(-34.5deg);
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 15px;
+}
+#roof_right{
+    width: 235px;
+    height: 15px;
+    background:#000;
+    position: absolute;
+    top:95px;
+    left: 212px;
+    -webkit-transform: rotate(34deg);
+    -ms-transform:rotate(34deg) ;
+    -o-transform:rotate(34deg) ;
+    transform:rotate(34.5deg);
+    border-bottom-left-radius: 2px;
+}
+#second_floor_window #top_left_window{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 120px;
+    left: 210px;
+    background: white;
+}
+
+#second_floor_window #bottom_left_window{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 143px;
+    left: 210px;
+    background: white;
+}
+
+#second_floor_window #top_right_window{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 120px;
+    left: 233px;
+    background: white;
+}
+
+#second_floor_window #bottom_right_window{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 143px;
+    left: 233px;
+    background: white;
+}
+
+#first_floor_left_window #top_left_window{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 220px;
+    left: 310px;
+    background: white;
+}
+
+#first_floor_left_window #bottom_left_window{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 243px;
+    left: 110px;
+    background: white;
+}
+
+#first_floor_left_window #top_right_window{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 220px;
+    left: 133px;
+    background: white;
+}
+
+#first_floor_left_window #bottom_right_window{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 243px;
+    left: 133px;
+    background: white;
+}
+
+#first_floor_right_window #top_left_window{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 220px;
+    left: 110px;
+    background: white;
+}
+
+#first_floor_right_window #bottom_left_window{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 243px;
+    left: 310px;
+    background: white;
+}
+
+#first_floor_right_window #top_right_window{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 220px;
+    left: 333px;
+    background: white;
+}
+
+#first_floor_right_window #bottom_right_window{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 243px;
+    left: 333px;
+    background: white;
+}
+
+#small_house .door{
+    top: 232px;
+    left: 200px;
+    background: #000;
+}
+#small_house .lock{
+    top: 45px;
+    left: 2.5px;
+}
+#chimney{
+    width: 0;
+    height:0;
+    border-right: 25px solid #000;
+    border-top: 30px solid #000;
+    border-bottom: 17px solid transparent;
+    position: absolute;
+    top: 42px;
+    left: 302px;   
+}
+
+#chimney:before{
+    content: "";
+    width: 27px;
+    height: 7px;
+    position: absolute;
+    background: #000;
+    top: -39px;
+    left: -1px;
+    border-radius: 5px;
+}
+
+/*/\/\/\/\/\/\/\/\/\//\//\/\/\/\/\/\/=====library========/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/*/
+/*=========main building==========*/
+#main_building{
+    width: 140px;
+    height: 250px;
+    background: #CC8485;
+    top: 100px;
+    left: 160px;
+    position: absolute;
+}
+#left_block{
+    width: 90px;
+    height: 160px;
+    background: #CC5E84;
+    top: 190px;
+    left: 70px;
+    position: absolute;
+}
+#right_block{
+    width: 90px;
+    height: 160px;
+    background: #E46C85;
+    top: 190px;
+    left: 300px;
+    position: absolute;
+}
+.window_left{
+    background: #F6D676;
+    position: absolute;
+    left: 10px;
+    margin-top: 10px;
+}
+.window_right{
+    background: #F6D676;
+    position: absolute;
+    right: 10px;
+    margin-top: 10px
+}
+.window_middle{
+    background: #F6D676;
+    position: absolute;
+}
+#main_block_window .window_left{
+    width: 25px;
+    height: 20px; 
+}
+#main_block_window .window_right{
+    width: 25px;
+    height: 20px; 
+}
+#main_block_window .window_middle{
+    width: 50px;
+    height: 20px;
+    left: 45px;
+    margin-top: 10px
+}
+#main_block_window .window_4th_floor .window_left,
+#main_block_window .window_4th_floor .window_right,
+#main_block_window .window_4th_floor .window_middle{
+    top: 32px;
+}
+#main_block_window .window_3rd_floor .window_left,
+#main_block_window .window_3rd_floor .window_right,
+#main_block_window .window_3rd_floor .window_middle{
+    top: 61px;
+}
+#main_block_window .window_2nd_floor .window_left,
+#main_block_window .window_2nd_floor .window_right,
+#main_block_window .window_2nd_floor .window_middle{
+    top: 92px;
+}
+#main_block_window .window_1st_floor .window_left,
+#main_block_window .window_1st_floor .window_right,
+#main_block_window .window_1st_floor .window_middle{
+    top: 121px;
+}
+#library .door{
+    background: #F6BC75;
+    border: none;
+}
+#library .lock{
+    right: 2.5px;
+    background: black;
+}
+#main_building .door{
+    top: 170px;
+    left: 50px;
+    width: 50px;
+    height: 80px;
+}
+#main_building .lock{
+    top: 40px;
+}
+#main_building:before{
+    content:"";
+    width: 120px;
+    height: 15px;
+    position: absolute;
+    background: #CC756D;
+    top: -15px;
+    left: 10px;
+}
+
+/*==============left block============*/
+#left_block_window .window_left{
+    width: 20px;
+    height: 15px; 
+}
+#left_block_window .window_right{
+    width: 20px;
+    height: 15px;
+    right: 0px;
+}
+#left_block_window .window_middle{
+    width: 30px;
+    height: 15px;
+    left: 35px;
+    margin-top: 10px
+}
+#left_block_window .window_4th_floor .window_left,
+#left_block_window .window_4th_floor .window_right,
+#left_block_window .window_4th_floor .window_middle{
+    top: 22px;
+}
+#left_block_window .window_3rd_floor .window_left,
+#left_block_window .window_3rd_floor .window_right,
+#left_block_window .window_3rd_floor .window_middle{
+    top: 41px;
+}
+#left_block_window .window_2nd_floor .window_left,
+#left_block_window .window_2nd_floor .window_right,
+#left_block_window .window_2nd_floor .window_middle{
+    top: 62px;
+}
+#left_block_window .window_1st_floor .window_left,
+#left_block_window .window_1st_floor .window_right,
+#left_block_window .window_1st_floor .window_middle{
+    top: 81px;
+}
+#left_block .door{
+    top: 115px;
+    left: 35px;
+    border: none;
+    width: 30px;
+    height: 45px;
+}
+#left_block .lock{
+    top: 20px;
+    right: 2.5px;
+    width: 4px;
+    height: 4px;
+}
+#left_block:before{
+    content:"";
+    width: 80px;
+    height: 11px;
+    position: absolute;
+    background: #CD526D;
+    top: -11px;
+    left: 10px;
+}
+/*==============right block============*/
+#right_block_window .window_left{
+    width: 20px;
+    height: 15px;
+    left:0px;
+}
+#right_block_window .window_right{
+    width: 20px;
+    height: 15px;
+    
+}
+#right_block_window .window_middle{
+    width: 30px;
+    height: 15px;
+    left: 25px;
+    margin-top: 10px
+}
+#right_block_window .window_4th_floor .window_left,
+#right_block_window .window_4th_floor .window_right,
+#right_block_window .window_4th_floor .window_middle{
+    top: 22px;
+}
+#right_block_window .window_3rd_floor .window_left,
+#right_block_window .window_3rd_floor .window_right,
+#right_block_window .window_3rd_floor .window_middle{
+    top: 41px;
+}
+#right_block_window .window_2nd_floor .window_left,
+#right_block_window .window_2nd_floor .window_right,
+#right_block_window .window_2nd_floor .window_middle{
+    top: 62px;
+}
+#right_block_window .window_1st_floor .window_left,
+#right_block_window .window_1st_floor .window_right,
+#right_block_window .window_1st_floor .window_middle{
+    top: 81px;
+}
+#right_block .door{
+    top: 115px;
+    left: 25px;
+    width: 30px;
+    height: 45px;
+}
+#right_block .lock{
+    top: 20px;
+    right: 2.5px;
+    width: 4px;
+    height: 4px;
+}
+
+#right_block:before{
+    content:"";
+    width: 80px;
+    height: 11px;
+    position: absolute;
+    background: #E9556D;
+    top: -11px;
+}
+
+/*/\/\/\/\/\/\/\/\/\//\//\/\/\/\/\/\/=====big house========/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/*/
+#turret{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 88px;
+    left: 160px;
+    background: #BDB9D2;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+#turret:before{
+    content: "";
+    width: 2px;
+    height: 20px;
+    position: absolute;
+    background: inherit;
+    top:-20px;
+    left: 48px
+}
+/*=====second floor===============*/
+#second_floor{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    background: #837BA4;
+    top:140px;
+    left: 160px;
+}
+#second_floor:before{
+    content:"";
+    width: 110px;
+    height: 5px;
+    position: absolute;
+    background: inherit;
+    left: -5px;
+}
+.sec_fl_window{
+    width: 6px;
+    height: 11px;
+    position: absolute;
+    background: #000;
+    top: 20px;
+}
+.sec_fl_window:first-child{
+    left: 8px;
+}
+.sec_fl_window:nth-child(2){
+    left: 23px;
+}
+.sec_fl_window:nth-child(3){
+    left: 38px;
+}
+.sec_fl_window:nth-child(4){
+    left: 53px;
+}
+.sec_fl_window:nth-child(5){
+    left: 68px;
+}
+.sec_fl_window:last-child{
+    left: 83px;
+}
+.sec_fl_window:last-child:after{
+    content:"";
+    width: 5px;
+    height: 15px;
+    position: absolute;
+    background: #837BA4;
+    top:22px;
+    left: 18px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform:rotate(-45deg) ;
+    -o-transform:rotate(-45deg) ;
+    transform:rotate(-45deg);
+    
+}
+.sec_fl_window:first-child:before{
+    content:"";
+    width: 5px;
+    height: 15px;
+    position: absolute;
+    background: #837BA4;
+    top:22px;
+    left: -14px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform:rotate(45deg) ;
+    -o-transform:rotate(45deg) ;
+    transform:rotate(45deg);
+    
+}
+.sm_window, .md_window, .xl_window,#grnd_door{
+    position: absolute;
+    background: #000;
+}
+.sm_window{
+    width: 8px;
+    height: 17px;
+    top: 16px;
+}
+.md_window{
+    width: 12px;
+    height: 20px;
+    top: 14px;
+}
+.xl_window{
+    width: 10px;
+    height: 40px;
+    top: 8px;
+}
+/*===========first floor==========*/
+#first_floor{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    background: #837BA4;
+    top:190px;
+    left: 60px;
+}
+
+#fir_fl_left div:first-child{
+    left: 10px;
+}
+#fir_fl_left div:nth-child(2){
+    left: 27px;
+}
+#fir_fl_left div:nth-child(3){
+    left: 44px;
+}
+#fir_fl_left div:nth-child(4){
+    left: 61px;
+}
+#fir_fl_left div:nth-child(5){
+    left: 78px;
+}
+#fir_fl_left div:nth-child(6){
+    left: 91px;
+}
+#fir_fl_left  div:last-child{
+    left: 104px;
+}
+
+#fir_fl_right div:first-child{
+    right: 10px;
+}
+#fir_fl_right div:nth-child(2){
+    right: 27px;
+}
+#fir_fl_right div:nth-child(3){
+    right: 44px;
+}
+#fir_fl_right div:nth-child(4){
+    right: 61px;
+}
+#fir_fl_right div:nth-child(5){
+    right: 78px;
+}
+#fir_fl_right div:nth-child(6){
+    right: 91px;
+}
+#fir_fl_right  div:last-child{
+    right: 104px;
+}
+
+#fir_fl_left:before{
+    content: "";
+    width: 86px;
+    height: 5px;
+    position: absolute;
+    background: #837BA1;
+    top:-9px;
+    left: -3px;
+}
+#fir_fl_left div:first-child:before{
+    content: "";
+    width: 80px;
+    height: 5px;
+    position: absolute;
+    background:#837BA1;
+    top:-18px;
+    left: -10px;
+    
+}
+#fir_fl_right:before,
+#fir_fl_right div:first-child:before{
+    content: "";
+    width: 86px;
+    height: 5px;
+    position: absolute;
+    background: #837BA1;
+}
+#fir_fl_right:before{
+    top:-9px;
+    right: -3px;
+}
+#fir_fl_right div:first-child:before{
+    top:-18px;
+    right: -10px;   
+}
+/*===========ground floor=========*/
+#ground_floor{
+    width: 350px;
+    height: 62px;
+    position: absolute;
+    background: #837BA4;
+    top:240px;
+    left: 35px;
+}
+
+#grnd_fl_left div:first-child{
+    left: 3px;
+}
+#grnd_fl_left div:nth-child(2){
+    left: 30px;
+}
+#grnd_fl_left div:nth-child(3){
+    left: 47px;
+}
+#grnd_fl_left div:nth-child(4){
+    left: 64px;
+}
+#grnd_fl_left div:nth-child(5){
+    left: 81px;
+}
+#grnd_fl_left div:nth-child(6){
+    left: 101px;
+}
+#grnd_fl_left div:nth-child(7){
+    left: 114px;
+}
+#grnd_fl_left  div:last-child{
+    left: 127px;
+}
+#grnd_fl_right div:first-child{
+    right: 3px;
+}
+#grnd_fl_right div:nth-child(2){
+    right: 35px;
+}
+#grnd_fl_right div:nth-child(3){
+    right: 52px;
+}
+#grnd_fl_right div:nth-child(4){
+    right: 69px;
+}
+#grnd_fl_right div:nth-child(5){
+    right: 86px;
+}
+#grnd_fl_right div:nth-child(6){
+    right: 106px;
+}
+#grnd_fl_right div:nth-child(7){
+    right: 119px;
+}
+#grnd_fl_right  div:last-child{
+    right: 132px;
+}
+#grnd_door{
+    width: 35px;
+    height: 30px;
+    top:10px;
+    left: 157px;
+}
+/*=======ground entrance=========*/
+
+.pillar,
+#grnd_door:before,
+#grnd_door:after,
+#grnd_entrance:after,
+#grnd_entrance:before,
+#grnd_entrance div:first-of-type:before,
+#grnd_entrance div:first-of-type:after,
+#grnd_fl_right div:first-child:before,
+#grnd_fl_left div:first-child:before{
+    position: absolute;
+}
+.pillar{
+    width: 5px;
+    height: 40px;
+    top:5px;
+    background: #A99ED7;
+}
+#grnd_entrance div:first-of-type{
+    left: 122px;  
+}
+#grnd_entrance div:nth-of-type(2){
+    left: 137px;  
+}#grnd_entrance div:nth-of-type(3){
+    left: 148px;  
+}#grnd_entrance div:nth-of-type(4){
+    left: 195px;  
+}#grnd_entrance div:nth-of-type(5){
+    left: 204px;  
+}#grnd_entrance div:last-of-type{
+    left: 218px;  
+}
+#grnd_door:before{ /* for the rectangle above the door */
+    content: "";
+    width: 0;
+    height: 0;
+    top:-38px;
+    left: -35px;
+    border-bottom: 25px solid #A99ED7;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+#grnd_door:after{ /* for the stairs */
+    content: "";
+    width: 110px;
+    height: 20px;
+    background: #A99ED7;
+    top:30px;
+    left: -38px;
+    -webkit-transform: skew(8deg);
+	   -moz-transform: skew(8deg);
+	     -o-transform: skew(8deg);   
+}
+#grnd_entrance:after{ /* for the dot above the door */
+    content:"";
+    width: 10px;
+    height: 10px;
+    background: #000;
+    top:-50px;
+    left:166px;
+    border-radius: 50px;
+}
+#grnd_entrance:before{ /* for the black rectangle above the door */
+    content: "";
+    width: 0;
+    height: 0;
+    top:-20px;
+    left: 142px;
+    border-bottom: 16px solid #000;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;    
+}
+#grnd_entrance div:first-of-type:before{
+    content:"";
+    width: 110px;
+    height: 8px;
+    background: inherit;
+    left:-5px;
+    top: -8px;  
+}
+#grnd_entrance div:first-of-type:after{
+    content:"";
+    width: 42px;
+    height: 8px;
+    background: #837BA4;
+    left:31px;
+    top: -6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#grnd_fl_right div:first-child:before,
+#grnd_fl_left div:first-child:before{
+    content: "";
+    width:10px;
+    height: 5px;
+    background: #837BA4;
+    top: -8px; 
+}
+#grnd_fl_right div:first-child:before{
+    right:-6px;
+}
+#grnd_fl_left div:first-child:before{
+    left:-6px;
+}
