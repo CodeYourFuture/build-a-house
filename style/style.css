@@ -18,6 +18,9 @@ nav a{
     color: aliceblue;
     text-decoration: none;
 }
+nav li a.active{
+    color: red;
+}
 #container{
     width:450px;
     height: 350px;
@@ -171,7 +174,6 @@ nav a{
     top: 243px;
     left: 333px;
 }
-
 #small_house .door{
     top: 232px;
     left: 200px;
@@ -767,7 +769,7 @@ nav a{
     width: 42px;
     height: 8px;
     background: #837BA4;
-    left:31px;
+    left: 31px;
     top: -6px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
