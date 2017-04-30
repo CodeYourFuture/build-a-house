@@ -87,9 +87,9 @@ nav a{
     background:#000;
     top:93px;
     left: 25px;
-    -webkit-transform: rotate(-34deg);
-    -ms-transform:rotate(-34deg) ;
-    -o-transform:rotate(-34deg) ;
+    -webkit-transform: rotate(-34.5deg);
+    -ms-transform:rotate(-34.5deg) ;
+    -o-transform:rotate(-34.5deg) ;
     transform:rotate(-34.5deg);
     border-bottom-right-radius: 30px;
     border-top-right-radius: 15px;
@@ -100,106 +100,76 @@ nav a{
     background:#000;
     top:95px;
     left: 212px;
-    -webkit-transform: rotate(34deg);
-    -ms-transform:rotate(34deg) ;
-    -o-transform:rotate(34deg) ;
+    -webkit-transform: rotate(34.5deg);
+    -ms-transform:rotate(34.5deg) ;
+    -o-transform:rotate(34.5deg) ;
     transform:rotate(34.5deg);
     border-bottom-left-radius: 2px;
 }
-#second_floor_window #top_left_window{
+.small_hse_window{
     width: 20px;
-    height: 20px;
-    top: 120px;
-    left: 210px;
+    height: 20px; 
     background: white;
+    position: absolute;
+}
+#second_floor_window div:first-child{  
+    top: 120px;
+    left: 210px; 
 }
 
-#second_floor_window #bottom_left_window{
-    width: 20px;
-    height: 20px;
+#second_floor_window div:nth-child(2){
     top: 143px;
     left: 210px;
-    background: white;
 }
 
-#second_floor_window #top_right_window{
-    width: 20px;
-    height: 20px;
+#second_floor_window div:nth-child(3){
     top: 120px;
     left: 233px;
-    background: white;
 }
 
-#second_floor_window #bottom_right_window{
-    width: 20px;
-    height: 20px;
+#second_floor_window div:nth-child(4){
     top: 143px;
     left: 233px;
-    background: white;
 }
 
-#first_floor_left_window #top_left_window{
-    width: 20px;
-    height: 20px;
+#first_floor_left_window div:first-child{
+    top: 220px;
+    left: 110px;
+}
+
+#first_floor_left_window div:nth-child(2){
+    top: 243px;
+    left: 110px;
+}
+
+#first_floor_left_window div:nth-child(3){
+    top: 220px;
+    left: 133px;
+}
+
+#first_floor_left_window div:nth-child(4){
+    top: 243px;
+    left: 133px;
+}
+
+#first_floor_right_window div:first-child{
     top: 220px;
     left: 310px;
-    background: white;
 }
-
-#first_floor_left_window #bottom_left_window{
-    width: 20px;
-    height: 20px;
-    top: 243px;
-    left: 110px;
-    background: white;
-}
-
-#first_floor_left_window #top_right_window{
-    width: 20px;
-    height: 20px;
-    top: 220px;
-    left: 133px;
-    background: white;
-}
-
-#first_floor_left_window #bottom_right_window{
-    width: 20px;
-    height: 20px;
-    top: 243px;
-    left: 133px;
-    background: white;
-}
-
-#first_floor_right_window #top_left_window{
-    width: 20px;
-    height: 20px;
-    top: 220px;
-    left: 110px;
-    background: white;
-}
-
-#first_floor_right_window #bottom_left_window{
-    width: 20px;
-    height: 20px;
+#first_floor_right_window div:nth-child(2){
     top: 243px;
     left: 310px;
     background: white;
 }
 
-#first_floor_right_window #top_right_window{
-    width: 20px;
-    height: 20px;
+#first_floor_right_window div:nth-child(3){
     top: 220px;
     left: 333px;
-    background: white;
 }
 
-#first_floor_right_window #bottom_right_window{
-    width: 20px;
-    height: 20px;
+#first_floor_right_window div:nth-child(4){
     top: 243px;
     left: 333px;
-    background: white;
 }
 
 #small_house .door{
@@ -615,33 +585,29 @@ nav a{
 #fir_fl_right  div:last-child{
     right: 104px;
 }
-
-#fir_fl_left:before{
-    content: "";
-    width: 86px;
-    height: 5px;
-    position: absolute;
-    background: #837BA1;
-    top:-9px;
-    left: -3px;
-}
-#fir_fl_left div:first-child:before{
-    content: "";
-    width: 80px;
-    height: 5px;
-    position: absolute;
-    background:#837BA1;
-    top:-18px;
-    left: -10px;
-    
-}
+#fir_fl_left:before,
 #fir_fl_right:before,
+#fir_fl_left div:first-child:before,
 #fir_fl_right div:first-child:before{
     content: "";
     width: 86px;
     height: 5px;
     position: absolute;
     background: #837BA1;
+}
+#fir_fl_left:before{   
+    top:-9px;
+    left: -3px;
+}
+#fir_fl_left div:first-child:before{
+    width: 80px;
+    top:-18px;
+    left: -10px;  
+}
+#fir_fl_right div:first-child:before{
+    width: 80px;
+    top:-18px;
+    right: -10px;
 }
 #fir_fl_right:before{
     top:-9px;
