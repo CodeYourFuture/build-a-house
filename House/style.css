@@ -1,0 +1,131 @@
+.base-house{
+    width: 402px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    top: 400px;
+    left: 400px;
+}
+.base-window1{
+   width: 114px;
+    height: 81px;
+    background-color: white;
+    position: absolute;
+    left: 15px;
+    top: 11px;
+}
+.base-window2{
+    width: 114px;
+    position: absolute;
+    right: 15px;
+    top: 11px;
+    height: 81px;
+    background-color: white;
+    
+}
+.window-separator1{
+    left: 53px;
+    background-color: black;
+    width: 4px;
+    height: 80px;
+    position: absolute;
+}
+.window-separator2{
+    width: 114px;
+    position: absolute;
+    top: 38px;
+    height: 4px;
+    background-color: black;    
+}
+#main-door{
+    width: 22%;
+    border: 2px dotted white;
+    position: absolute;
+    top: 20%;
+    left: 39%;
+    height: 75%;
+    background-color: black;   
+}
+.door-handle{
+    width: 16px;
+    height: 17px;
+    top: 68px;
+    left: 7px;
+    border-radius: 50px;
+    position: absolute;
+    background-color: white;
+}
+.roof-base{
+    border-left: 202px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid black;
+    position: absolute;
+    left: 408px;
+}
+.roof-window{
+   width: 90px;
+    height: 64px;
+    background-color: white;
+    position: absolute;
+    left: -46px;
+    top: 88px;
+}
+.window-separator3{
+    left: 43px;
+    background-color: black;
+    width: 4px;
+    height: 80px;
+    position: absolute;
+}
+.window-separator4{
+    width: 114px;
+    position: absolute;
+    top: 32px;
+    height: 4px;
+    background-color: black;    
+}
+#top-beam1{
+    width: 26px;
+    height: 353px;
+    background-color: black;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 122px;
+    left: 482px;
+}
+#top-beam2{
+    width: 26px;
+    height: 350px;
+    background-color: black;
+    transform: rotate(315deg);
+    position: absolute;
+    top: 126px;
+    left: 716px;
+}
+#air-channel-piece1{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 263px;
+    left: 717px;
+    border-top: 70px solid black;
+    border-left: 70px solid transparent;
+   
+}
+#air-pipe{
+    width: 70px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 164px;
+    left: 717px;
+}
+#pipe-cover{
+    width: 93px;
+    height: 20px;
+    top: 143px;
+    border-radius: 30px;
+    background-color: black;
+    position: absolute;
+    left: 704px;
+}
