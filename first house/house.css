@@ -1,0 +1,133 @@
+#main{
+    position: relative;
+    width: 700px;
+	height: 700px;
+    left: 250px;
+   
+}
+.house-main{
+    width: 500px;
+	height: 360px;
+	background-color: black;
+    position: absolute;
+    bottom: 50px;
+    left:70px;
+}
+.door{
+    width: 70px;
+	height: 120px;
+	background-color: black;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 200px;
+    padding: 10px;
+    border: solid 5px white;
+    border-bottom: none;
+    
+}
+.lock{
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+.window-left{
+    width: 70px;
+	height: 70px;
+	background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+
+}
+.window-right{
+    width: 70px;
+	height: 70px;
+	background-color: white;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+
+}
+.roof-main{
+    position: absolute;
+}
+.roof1{
+    position: absolute;
+    top: 90px;
+    height: 0px;
+    width: 0px;
+    border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 250px  solid black;
+    z-index: 3;
+    left: 70px;
+}
+.roof2{
+    position: absolute;
+    top: 80px;
+    height: -70px;
+    width: 0px;
+    border-left: 320px solid transparent;
+	border-right: 320px solid transparent;
+	border-bottom: 250px  solid black;
+    z-index: 1;
+}
+.roof3{
+    position: absolute;
+    top: 90px;
+    height: -30px;
+    width: 0px;
+    border-left: 270px solid transparent;
+	border-right: 270px solid transparent;
+	border-bottom: 250px  solid white;
+    left: 50px;
+    z-index: 2;
+}
+.window-top{
+    width: 70px;
+	height: 70px;
+	background-color: white;
+    position: absolute;
+    left: 280px;
+    top: 240px;
+    z-index: 4;
+}
+.vLine{
+    width: 3px;
+    height: 70px;
+    background: black;
+    top: 0px;
+    left: 30px;
+    position: absolute;
+}
+.hline{
+    width: 70px;
+    height: 3px;
+    background: black;
+    top: 35px;
+    left: 0px;
+    position: absolute;
+}
+.top{
+   width: 50px;
+   height: 120px;
+   background-color: black;
+   left: 450px;
+   top: 100px;
+   position: absolute;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   }
+
+   .topLine{
+    width: 50px;
+    height: 3px;
+    background: white;
+    top: 20px;
+    left: 0px;
+    position: absolute;
+   }

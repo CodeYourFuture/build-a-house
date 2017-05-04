@@ -1,0 +1,108 @@
+
+.main-library{
+    height: 700px;
+    width: 750px;
+    position: relative;
+    left: 200px;
+    
+}
+
+.main-building{
+    height: 600px;
+    width: 250px;
+    background-color: palevioletred;
+    position: absolute;
+    bottom: 0px;
+    left:250px;
+}
+.right-building{
+    height: 400px;
+    width: 250px;
+    background-color: palevioletred;
+    position: absolute;
+    bottom: 0px; 
+    right: 0px;
+}
+.left-building{
+    height: 400px;
+    width: 250px;
+    background-color: palevioletred;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.main-door{
+    height: 150px;
+    width: 70px;
+    bottom: 0px;
+    background-color: peru;
+    position: absolute;
+    left: 100px;
+}
+.door{
+    height: 100px;
+    width: 60px;
+    bottom: 0px;
+    background-color: peru;
+    position: absolute;
+    left: 100px;
+}
+.lock1{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: white;
+    top: 60px;
+    left: 50px;
+    position: absolute;
+}
+.lock2{
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: white;
+    top: 40px;
+    left:50px;
+    position: absolute;
+}
+.main-beam{
+    height: 20px;
+    width: 200px;
+    background-color: pink;
+    top: -20px;
+    position: absolute;
+    left: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.beam{
+    height: 20px;
+    width: 200px;
+    background-color: pink;
+    top: -20px;
+    position: absolute;
+    left: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.window{
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  margin-bottom: 20px;
+}
+.s-window{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+  margin: 20px;
+
+}
+.l-window{
+    height: 50px;
+    width: 60px;
+     margin: 20px;
+    background-color: orange;
+  
+
+}
