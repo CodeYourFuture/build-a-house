@@ -89,10 +89,10 @@
 }
 .floor{
     width: 0;
-	height: 0;
-	border-left: 200px solid transparent;
-	border-right: 200px solid transparent;
-	border-bottom: 200px solid black;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid black;
     position: relative;
     left: 400px;
 }
