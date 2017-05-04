@@ -1,0 +1,131 @@
+body{
+  margin: auto;
+  width: 50%;
+}
+.base-house{
+  background: #000;
+  height: 500px;
+  width: 700px;
+  position: relative;
+  top: 300px;
+}
+.roof{
+  border-bottom: 240px solid #000 ;
+  border-left: 350px solid transparent;
+  border-right: 350px solid transparent;
+  content: "";
+  height: 0;
+  left: 0%;
+  position: absolute;
+  top: -48%;
+  width: 0;
+}
+.pipe-edge{
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 110px;
+  left: 220px;
+  border-top: 62px solid #000;
+  border-left: 90px solid transparent; 
+}
+.pipe{
+  width: 90;
+  height: 63;
+  background: #000;
+  position: absolute;
+  top: 48px;
+  left: 220px;
+}
+.pipe-top{
+  width: 100;
+  height: 20;
+  background: #000;
+  position: absolute;
+  top: 24px;
+  left: 215px;
+  border-radius: 5px;
+}
+
+.door{
+  background: #000;
+  height: 240px;
+  width: 120px;
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  border-left: 5px solid #fff;
+  border-right: 5px solid #fff;
+  border-top: 5px solid #fff;
+}
+.door-handle{
+     width: 16px;
+     height: 17px;
+     top: 55%;
+     left: 7px;
+     border-radius: 50px;
+     position: absolute;
+     background-color: white;
+ }
+.win-left{
+  background: #fff;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.win-right{
+  background: #fff;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+}
+
+.win-top{
+  background: #fff;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: -10%;
+  left:40%;
+}
+.cross-vertical{
+  width: 150px;
+  height: 5px;
+  background: #000;
+  position: absolute;
+  top: 48%;
+  left:0%;
+}
+
+.cross-horizntal{
+  width: 5px;
+  height: 100px;
+  background: #000;
+  position: absolute;
+  top: 0%;
+  left: 47%
+}
+.rooftop-left{
+  width: 26px;
+  height: 497px;
+  background-color: #000;
+  transform: rotate(55.5deg);
+  position: absolute;
+  top: -135px;
+  left: -210px;
+}
+
+.rooftop-right{
+  width: 26px;
+  height: 497px;
+  background-color: #000;
+  transform: rotate(-55.5deg);
+  position: absolute;
+  top: -135px;
+  right: -210px;
+}
