@@ -1,0 +1,148 @@
+.main-rectangle {
+    position: relative;
+    z-index: 1;
+    width:500px;
+    height: 300px;
+    background-color: black;
+}
+
+.door {
+    position: absolute;
+    bottom: 0;
+    left: 194px;
+    z-index: 2;
+    width: 100px;
+    height: 200px;
+    border: 6px solid white;
+    background-color: black;
+  
+}
+
+.circle {
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+td {
+    width:46px;
+    height: 46px;
+    border: 2px solid black;
+    background-color: white;
+    z-index: 2;
+}
+
+.window1 {
+    position: absolute;
+    left:47px;
+    top: 70px;
+}
+
+.window2 {
+    position: absolute;
+    right:47px;
+    top: 70px;
+}
+
+.window3 {
+    position: absolute;
+    left: 194px;
+    top: -100px;
+}
+
+.ch-top {
+    position: fixed;
+    left: 415px;
+    top: 28px;
+    width: 80px;
+    height: 14px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.ch-square {
+    position: fixed;
+    left: 420px;
+    top: 45px;
+    width: 70px;
+    height: 50px;
+    background-color: black;
+    
+}
+
+.ch-triangle {
+    position: fixed;
+    left: 420px;
+    top: 95px;
+    width:0px;
+    height:0px;
+    border-left: 70px solid transparent;
+    border-top: 60px solid black; 
+}
+
+.roof1 {
+    width:0px;
+    height:0px;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 200px solid black;       
+}
+
+.roof2 {
+    position: relative;
+    width:0px;
+    height:0px;
+    border-left: 275px solid transparent;
+    border-right: 275px solid transparent;
+    border-bottom: 225px solid white;
+}
+
+.roof3 {
+    width:0px;
+    height:0px;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 250px solid black;
+}
+
+.corner1 {
+    position: absolute;
+    left: -20px;
+    top: 235px;
+    width:0px;
+    height:0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 25px solid white;
+    z-index: 4;
+}
+
+.corner2 {
+    position: absolute;
+    left: 575px;
+    top: 235px;
+    width:0px;
+    height:0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 25px solid white;
+    z-index: 4;
+}
+
+.main-house {
+    position: relative;
+    top: -215px;
+    left: 25px;
+ }
+
+ .black-red {
+     position: relative;
+     top:-225px;
+     left: 25px; 
+ }
+
+
