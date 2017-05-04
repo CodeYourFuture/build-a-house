@@ -1,0 +1,140 @@
+
+/** THIS HOUSE BUILD USUING CSS BLOCK CREATING TRICKS,CSS ROTATION AND CSS POSITIONING **/
+
+#center{
+    width: 900px;
+    height: 700px;
+    position:  relative;
+    }
+
+.line1{
+    width: 20px;
+    height: 470px;
+    background: black;
+   position: absolute;
+   top: -150px;
+   left: -205px;
+   transform: rotate(60deg);
+   }
+
+   .line2{
+    width: 20px;
+    height: 470px;
+    background: black;
+   position: absolute;
+   top: -150px;
+   right: -205px;
+  transform: rotate(120deg);
+   }
+
+.tria{
+    width: 0px;
+    height: 0px;
+    border-left: 350px solid transparent;
+    border-right: 350px solid transparent;
+    border-bottom: 200px solid black;
+   position: absolute;
+   top: 100px;
+   left: 70px;
+   }
+
+.rectangle{
+    width: 700px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+    }
+
+.square1{
+    width: 100px;
+    height: 100px;
+    background-color:white;    
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    }
+
+.square2{
+    width: 100px;
+    height: 100px;
+    background-color:white;    
+    position:absolute;
+    top: 100px;
+    right: 50px;
+    }
+
+.square3{
+    width: 100px;
+    height: 100px;
+    background-color:white;    
+    position:absolute;
+    top: -50px;
+    left: 300px;
+    }
+
+.r1{
+    width: 105px;
+    height: 155px;
+    background: white;
+    position:absolute;
+    left: 300px;
+    bottom:1px;
+    }
+
+.r2{
+    width: 100px;
+    height: 150px;
+    background:black;
+    position:absolute;
+    left: 3px;
+    bottom:1px;
+    }
+
+.cl{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top:70px;
+    left: 5px;
+    }
+
+    .cros1{
+        background: black;
+        width: 100px;
+        height: 5px;
+        position: absolute;
+        top:50px;
+        left:0px;
+        }
+   
+    .cros2{
+        width:5px;
+        height: 100px;
+        position: absolute;
+        background: black;
+        left: 50px;
+        bottom: 0px;
+        }
+   
+    .cimini{
+        width: 50px;
+        height: 200px;
+        background: black;
+        position: absolute;
+        top: 30px;
+        right: 190px;
+        border-bottom-left-radius: 30%;
+    }
+    .cros3{
+        background: white;
+        width: 100px;
+        height: 15px;
+        position: absolute;
+        top:20px;
+        left:0px;
+        }
+

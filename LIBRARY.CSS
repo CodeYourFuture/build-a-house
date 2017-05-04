@@ -1,0 +1,100 @@
+
+/** THIS LIBRARY BUILD USUING CSS BLOCK CREATING TRICKS, CSS POSITIONING CSS FLEX. **/
+
+.CONTAINER{
+    width: 900px;
+    height: 900pX;
+    position: relative;
+    }
+
+.top{
+  width: 250px;
+  height: 30px;
+  background:mediumpurple;
+  border-radius: 20%;
+  position: absolute;
+  top:-25PX;  
+  left: 30px;
+}
+
+.LEFTBLOCK{
+    width: 300px;
+    height: 600px;
+    background: orchid;
+    position: absolute;
+    bottom: 0px;
+    right: 600px;
+}
+
+.CENTERBLOCK{
+    width: 300px;
+    height: 800px;
+    background: magenta;
+    position: absolute;
+    bottom: 0PX;
+    right: 300px;
+}
+
+.RIGHTBLOCK{
+    width: 300px;
+    height: 600px;
+    background: orchid;
+    position: absolute;
+    right: 0PX;
+    bottom: 0PX;
+}
+
+.flexContainer{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    border: transparent;
+    background:orchid;
+}
+
+.flexBoxes{
+    height: 30px;
+    width: 40%; 
+    background: orange;
+    margin: 5px;
+    padding: 5px;
+    line-height: 20px;
+}
+
+.flexBox{
+    height: 30px;
+    width: 60%;
+    background: orange;
+    margin: 5px;
+    padding: 5px;
+    line-height: 20px;
+}
+
+.door{
+    width: 90px;
+    height: 220px;
+    position: absolute;
+    bottom: 0px;
+    right: 120px;
+    background: orange;
+}
+
+.doors{
+    width: 90px;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    right: 120px;
+    background: orange;
+}
+
+.cl{
+    widows: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: orangered;
+    position: absolute;
+    bottom: 70px;
+    right: 10px;
+}
