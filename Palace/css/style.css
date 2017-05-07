@@ -173,6 +173,33 @@
     left: 15px;
 }
 
+.left-ad-r1 {
+    width: 15px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 35px;
+    left: -15px;
+}
+
+.left-ad-r2 {
+    width: 20px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 40px;
+    left: -20px;
+}
+
+.left-ad-r3 {
+    width: 25px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 45px;
+    left: -25px;
+}
+
 .right-ad {
     width: 50px;
     height: 150px;
@@ -189,6 +216,33 @@
     position: absolute;
     top: 15px;
     right: 15px;
+}
+
+.right-ad-r1 {
+    width: 15px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 35px;
+    right: -15px;
+}
+
+.right-ad-r2 {
+    width: 20px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 40px;
+    right: -20px;
+}
+
+.right-ad-r3 {
+    width: 25px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    top: 45px;
+    right: -25px;
 }
 
 .small-w-1 {
