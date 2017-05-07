@@ -1,6 +1,6 @@
 .building {
     position: relative;
-    top: 600px;
+    top: 750px;
     left: 300px;
 }
 
@@ -731,15 +731,15 @@ top-L. {
     background-color: #994B1A;
     position: absolute;
     left: 140px;
-    top: -140px;
+    top: -450px;
 }
 
 .flag {
     width: 0px;
     height: 200px;
     position: absolute;
-    left: 0px;
-    top: -150px;
+    left: 3px;
+    top: 25px;
 }
 
 body {
