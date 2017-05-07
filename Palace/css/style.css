@@ -176,7 +176,7 @@
 .left-ad-r1 {
     width: 15px;
     height: 5px;
-    background-color: blue;
+    background-color: #994B1A;
     position: absolute;
     top: 35px;
     left: -15px;
@@ -185,7 +185,7 @@
 .left-ad-r2 {
     width: 20px;
     height: 5px;
-    background-color: blue;
+    background-color: #994B1A;
     position: absolute;
     top: 40px;
     left: -20px;
@@ -194,7 +194,7 @@
 .left-ad-r3 {
     width: 25px;
     height: 5px;
-    background-color: blue;
+    background-color: #994B1A;
     position: absolute;
     top: 45px;
     left: -25px;
@@ -221,7 +221,7 @@
 .right-ad-r1 {
     width: 15px;
     height: 5px;
-    background-color: blue;
+    background-color: #994B1A;
     position: absolute;
     top: 35px;
     right: -15px;
@@ -230,7 +230,7 @@
 .right-ad-r2 {
     width: 20px;
     height: 5px;
-    background-color: blue;
+    background-color: #994B1A;
     position: absolute;
     top: 40px;
     right: -20px;
@@ -239,7 +239,7 @@
 .right-ad-r3 {
     width: 25px;
     height: 5px;
-    background-color: blue;
+    background-color: #994B1A;
     position: absolute;
     top: 45px;
     right: -25px;
