@@ -179,7 +179,7 @@
     background-color: #994B1A;
     position: absolute;
     top: 35px;
-    left: -15px;
+    left: -30px;
 }
 
 .left-ad-r2 {
@@ -188,7 +188,7 @@
     background-color: #994B1A;
     position: absolute;
     top: 40px;
-    left: -20px;
+    left: -40px;
 }
 
 .left-ad-r3 {
@@ -197,7 +197,7 @@
     background-color: #994B1A;
     position: absolute;
     top: 45px;
-    left: -25px;
+    left: -50px;
 }
 
 .right-ad {
@@ -219,30 +219,30 @@
 }
 
 .right-ad-r1 {
-    width: 25px;
-    height: 5px;
-    background-color: #994B1A;
-    position: absolute;
-    top: 35px;
-    right: -15px;
-}
-
-.right-ad-r2 {
     width: 30px;
     height: 5px;
     background-color: #994B1A;
     position: absolute;
+    top: 35px;
+    right: -30px;
+}
+
+.right-ad-r2 {
+    width: 40px;
+    height: 5px;
+    background-color: #994B1A;
+    position: absolute;
     top: 40px;
-    right: -20px;
+    right: -40px;
 }
 
 .right-ad-r3 {
-    width: 35px;
+    width: 50px;
     height: 5px;
     background-color: #994B1A;
     position: absolute;
     top: 45px;
-    right: -25px;
+    right: -50px;
 }
 
 .small-w-1 {
@@ -727,7 +727,7 @@ top-L. {
 
 .antena {
     width: 3px;
-    height: 150px;
+    height: 450px;
     background-color: #994B1A;
     position: absolute;
     left: 140px;
