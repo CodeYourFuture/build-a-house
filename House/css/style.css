@@ -1,0 +1,144 @@
+.base-house{
+    width: 402px;
+    height: 200px;
+    background-color: #E1CBA6;
+    position: relative;
+    top: 400px;
+    left: 400px;
+}
+
+.base-window1{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+
+.base-window2{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    top: 35px;
+    right: 40px;
+}
+
+.window-separator1{
+    width: 3px;
+    height: 80px;
+    background-color: #FF9985;
+    position: absolute;
+    left: 40px;
+}
+
+.window-separator2{
+    width: 80px;
+    height: 3px;
+    background-color: #FF9985;  
+    position: absolute;
+    top: 40px;    
+}
+
+#main-door{
+    width: 22%;
+    height: 75%;
+    background-color: #AF97C7;
+    position: absolute;
+    border: 3px solid white;
+    top: 23.5%;
+    left: 39%;
+}
+
+.door-handle{
+    width: 16px;
+    height: 17px;
+    background-color: #FF9985;
+    position: absolute;
+    border-radius: 50px;
+    top: 68px;
+    left: 7px;
+}
+
+.roof-base{
+    position: absolute;
+    border-left: 202px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid #E1CBA6;
+    left: 408px;
+}
+
+.roof-window{
+    width: 100px;
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    top: 105px;
+    left: -50px;
+}
+
+.window-separator3{
+    width: 3px;
+    height: 70px;
+    background-color: #FF9985;
+    position: absolute;
+    left: 50px;
+}
+
+.window-separator4{
+    width: 100px;
+    height: 3px;  
+    background-color: #FF9985;
+    position: absolute;
+    top: 35px;  
+}
+
+#top-beam1{
+    width: 30px;
+    height: 345px;
+    background-color: #FF9985;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 121px;
+    left: 482px;
+}
+
+#top-beam2{
+    width: 28px;
+    height: 345px;
+    background-color: #FF9985;
+    position: absolute;
+    transform: rotate(315deg);
+    top: 125px;
+    left: 711px;
+}
+
+#air-channel-piece1{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 70px solid #E1CBA6;
+    border-left: 70px solid transparent; 
+    top: 264px;
+    left: 717px;
+}
+
+#air-pipe{
+    width: 69.5px;
+    height: 100px;
+    background-color: #E1CBA6;
+    position: absolute;
+    top: 164px;
+    left: 717.5px;
+}
+
+#pipe-cover{
+    width: 93px;
+    height: 20px;
+    background-color: #FF9985;
+    position: absolute;  
+    border-radius: 50px;
+    top: 140px;
+    left: 705px;
+}
