@@ -1,4 +1,4 @@
-# Build-A-House
+# Build A House
 Practice for positioning HTML elements with CSS properties.
 
 ## Task
